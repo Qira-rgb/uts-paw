@@ -1,10 +1,91 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Pulau Pahawang",
+    "kategori": "Pantai",
+    "kabupatenkota": "Pesawaran",
+    "hargaTiket": 400000,
+    "jamBuka": "06.00 - 22.00"
+  },
+  {
+    "id": "2",
+    "judul": "Bukit Aslan",
+    "kategori": "Perbukitan",
+    "kabupatenkota": "Bandar Lampung",
+    "hargaTiket": 35000,
+    "jamBuka": "14.00 - 22.00"
+  },
+  {
+    "id": "3",
+    "judul": "Taman Nasional Way Kambas",
+    "kategori": "Budaya",
+    "kabupatenkota": "Lampung Timur",
+    "hargaTiket": 20000,
+    "jamBuka": "08.00 - 18.00"
+  },
+  {
+    "id": "4",
+    "judul": "Menara Siger Lampung",
+    "kategori": "Budaya",
+    "kabupatenkota": "Lampung Selatan",
+    "hargaTiket": 20000,
+    "jamBuka": "24 jam"
+  },
+  {
+    "id": "5",
+    "judul": "Pantai Minang Rua",
+    "kategori": "Pantai",
+    "kabupatenkota": "Lampung Selatan",
+    "hargaTiket": 5000,
+    "jamBuka": "08.00 - 18.00"
+  },
+  {
+    "id": "6",
+    "judul": "Pantai Marina Kalianda",
+    "kategori": "Pantai",
+    "kabupatenkota": "Lampung Selatan",
+    "hargaTiket": 30000,
+    "jamBuka": "07.00 - 18.00"
+  },
+  {
+    "id": "7",
+    "judul": "Teluk Kiluan",
+    "kategori": "Pantai",
+    "kabupatenkota": "Tanggamus",
+    "hargaTiket": 5000,
+    "jamBuka": "24 jam"
+  },
+  {
+    "id": "8",
+    "judul": "Pantai Dewi Mandapag",
+    "kategori": "Pantai",
+    "kabupatenkota": "Pesawaran",
+    "hargaTiket": 10000,
+    "jamBuka": "08.00 - 18.00"
+  },
+  {
+    "id": "9",
+    "judul": "Gunung Rajabasa",
+    "kategori": "Gunung",
+    "kabupatenkota": "Lampung Selatan",
+    "hargaTiket": 60000,
+    "jamBuka": "24 jam"
+  },
+  {
+    "id": "10",
+    "judul": "Seruit Buk Lin",
+    "kategori": "Kuliner",
+    "kabupatenkota": "Bandar Lampung",
+    "hargaTiket": 400000,
+    "jamBuka": "06.00 - 22.00"
+  },
+  {
+    "id": "11",
+    "judul": "Wisata Air Terjun Curup Gangsa",
+    "kategori": "Air Terjun",
+    "kabupatenkota": "Way Kanan",
+    "hargaTiket": 10000,
+    "jamBuka": "08.00 - 18.00"
   }
+
 ]
