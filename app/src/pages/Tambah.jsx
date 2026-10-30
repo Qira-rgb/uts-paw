@@ -15,23 +15,11 @@ export default function Tambah() {
 
     const simpan = (e) => {
     e.preventDefault()
-      if (form.judul.trim().length < 3) {
-      setGalat('Destinasi wajib diisi, minimal 3 karakter.')
-      return
+    if (form.judul.trim().length < 3) {
+    setGalat('Destinasi wajib diisi, minimal 3 karakter.')
+    return
     }
-    if (form.kabupatenkota.trim() === '') {
-      setGalat('Wajib diisi.')
-      return
-    }
-    if (form.jamBuka.trim() === '') {
-      setGalat('Wajib diisi.')
-      return
-    }
-    if (form.hargaTiket.trim() === '') {
-      setGalat('Wajib diisi.')
-      return
-    }
-
+    setGalat('')
     tambah({ ...form, judul: form.judul.trim() })
     navigate('/koleksi')
   }
@@ -57,15 +45,12 @@ export default function Tambah() {
 
       <label htmlFor="kabupatenkota">Kabupaten/Kota</label>
       <input id="kabupatenkota" name="kabupatenkota" value={form.kabupatenkota} onChange={ubah} placeholder="Lampung Selatan" />
-      {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="hargaTiket">Harga Tiket/Biaya Masuk (Rp) (minimal harga menu jika kuliner)</label>
       <input id="hargaTiket" name="hargaTiket" value={form.hargaTiket} onChange={ubah} placeholder="100000" />
-      {galat && <p role="alert">{galat}</p>}
 
       <label htmlFor="jamBuka">Jam Buka</label>
       <input id="jamBuka" name="jamBuka" value={form.jamBuka} onChange={ubah} placeholder="Contoh: 08.00 - 17.00 atau 24 jam" />
-      {galat && <p role="alert">{galat}</p>}
 
       <button type="submit">Simpan</button>
 

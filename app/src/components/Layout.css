@@ -69,12 +69,32 @@
   align-self: flex-start;
   margin-top: 1rem;
   padding: 0.6rem 1.5rem;
-  border: 0;
+  border: 2px solid #000000;
   border-radius: 6px;
   background: #FFC266;
   color: #000000;
   font: inherit;
   cursor: pointer;
+}
+.aksi button:hover{
+  background: #09318D;
+  color: #ffff;
+}
+.koleksi-aksi{
+  align-self: flex-start;
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  background: #FD91CC;
+  color: #000000;
+  font: inherit;
+  cursor: pointer;
+}
+
+.koleksi-aksi:hover{
+  background: #09318D;
+  color: #ffff;
 }
 
 .isi dl {
@@ -99,8 +119,9 @@
 
 .kartu {
   padding: 1rem;
-  border: 3px solid #66A3FF;
+  border: 5px solid #FD91CC;
   border-radius: 8px;
+  text-align: center;
 }
 
 .kartu h3 {
@@ -113,6 +134,22 @@
   color: #57606a;
 }
 
+.kartu-aksi {
+  display: block;
+  margin: 0 -1rem;
+  padding: 0 1rem 0.5rem;
+  text-decoration: none;
+  color: #000000;
+  font: inherit;
+  border-bottom: 2px solid #000000;
+}
+
+.kartu-aksi:hover {
+  text-decoration: none;
+  color: #4d23d9;
+  font: inherit;
+}
+
 .alat-koleksi {
   display: flex;
   flex-wrap: wrap;
@@ -123,7 +160,7 @@
 .alat-koleksi input,
 .alat-koleksi select {
   padding: 0.5rem 0.75rem;
-  border: 2px solid #66A3FF;
+  border: 2px solid #FD91CC;
   border-radius: 6px;
   font: inherit;
 }

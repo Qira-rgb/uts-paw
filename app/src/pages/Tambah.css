@@ -3,6 +3,12 @@
   flex-direction: column;
   gap: 0.5rem;
   max-width: 480px;
+  padding: 0.6rem 1.5rem;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  background-color: #FFC266;
+  margin: 0 auto;
+
 }
 
 .formulir label {
@@ -28,16 +34,17 @@
   align-self: flex-start;
   margin-top: 1rem;
   padding: 0.6rem 1.5rem;
-  border: 0;
+  border: 2px solid #000000;
   border-radius: 6px;
-  background: #FFC266;
+  background: #FD91CC;
   color: #000000;
   font: inherit;
   cursor: pointer;
 }
 
 .formulir button:hover{
-  background: #FF66A3;
+  background: #09318D;
+  color: #ffff;
 }
 
 @media (max-width: 480px) {

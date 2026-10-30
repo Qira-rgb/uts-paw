@@ -42,7 +42,7 @@ return (
         <button type="button" onClick={konfirmasiHapus}>
           Hapus
         </button>
-      <Link to="/koleksi">Kembali</Link>
+      <Link to="/koleksi" className="koleksi-aksi">Kembali</Link>
             </div>
     </section>
   )
