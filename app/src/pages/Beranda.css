@@ -1,0 +1,34 @@
+.beranda {
+  padding: 2rem 0;
+}
+
+.beranda-judul {
+  margin: 0 0 0.5rem;
+  font-weight: bolder;
+  font-size: 2.0rem;
+}
+
+.beranda-ringkasan {
+  font-size: 1.1rem;
+}
+
+.beranda-tautan {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border: 2px solid #66A3FF;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #1f2328;
+}
+
+.beranda-tautan button{
+  align-self: flex-start;
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  border: 0;
+  border-radius: 6px;
+  background: #FFC266;
+  color: #000000;
+  font: inherit;
+  cursor: pointer;
+}

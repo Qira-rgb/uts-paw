@@ -5,10 +5,12 @@
 }
 
 .kepala {
+  background: #FF66A3;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1.5rem;
+  border-bottom: 2px solid #000000;
 }
 
 .menu {
@@ -16,8 +18,27 @@
   gap: 12px;
 }
 
+.menu a{
+  color: #000000;
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  opacity: 0.85;
+  font-weight: 600;
+}
+
+.menu a:hover {
+  color: #FF66A3;
+  background: #ffffff;
+
+}
+
 .menu a.active {
   font-weight: 600;
+  color: #000000;
+  border-color: #000000;
+
 }
 
 .isi {
@@ -29,9 +50,11 @@
 }
 
 .kaki {
+  background: #FF66A3;
+  text-align: center;
   padding: 1rem 1.5rem;
-  border-top: 1px solid #dcdcdc;
-  color: #57606a;
+  border-top: 2px solid #000000;
+  color: #000000;
   font-size: 0.9rem;
 }
 
@@ -40,6 +63,18 @@
   align-items: center;
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.aksi button{
+  align-self: flex-start;
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  border: 0;
+  border-radius: 6px;
+  background: #FFC266;
+  color: #000000;
+  font: inherit;
+  cursor: pointer;
 }
 
 .isi dl {
@@ -64,7 +99,7 @@
 
 .kartu {
   padding: 1rem;
-  border: 1px solid #dcdcdc;
+  border: 3px solid #66A3FF;
   border-radius: 8px;
 }
 
@@ -88,7 +123,7 @@
 .alat-koleksi input,
 .alat-koleksi select {
   padding: 0.5rem 0.75rem;
-  border: 1px solid #c4c4c4;
+  border: 2px solid #66A3FF;
   border-radius: 6px;
   font: inherit;
 }
