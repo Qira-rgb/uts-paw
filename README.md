@@ -34,14 +34,14 @@ Terapkan keempatnya pada setiap jawaban yang berisi kode untuk soal ini.
 3. Clone fork, kerjakan soal di folder `app/`:
 
    ```bash
-   git clone https://github.com/USERNAME/uts-paw.git
+   git clone https://github.com/Qira-rgb/uts-paw.git
    cd uts-paw/app
    npm install
    npm run dev
    ```
 
 4. Cek perkiraan nilai kapan saja dengan `npm run cek` di folder `app/`.
-5. Push ke `main`. Aplikasi tayang di `https://USERNAME.github.io/uts-paw/` dan ringkasan rubrik muncul di tab Actions (workflow **Build dan Deploy**).
+5. Push ke `main`. Aplikasi tayang di `https://Qira-rgb.github.io/uts-paw/` dan ringkasan rubrik muncul di tab Actions (workflow **Build dan Deploy**).
 
 Panduan lengkap beserta solusi kendala umum ada di halaman [Panduan](https://uts-paw.mhabibalgifari.web.id/panduan).
 
@@ -65,17 +65,21 @@ Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Ke
 ```markdown
 # Nama Aplikasi
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: QINTHAFA TREZA AIMAR
+NIM: 124140155
+Kelas: RA
+Tema: Destinasi Wisata Lampung
+Deployment: https://Qira-rgb.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](screenshoots/beranda.png)
 
 ## Fitur
 
-- ...
+- Beranda sebagai tempat awal untuk menampilkan ringkasan web.
+- Koleksi sebagai tempat semua daftar yang telah tersimpan dan dapat dikelola.
+- Tambah sebagai tempat/formulir untuk menambah daftar destinasi wisata di Lampung.
+- Detail sebagai tempat rinci informasi dari salah satu daftar wisata.
+- Statistik sebagai tempat data menampilkan jumlah koleksi tempat wisata per kategori lalu totalnya.
 
 ## Menjalankan secara lokal
 
@@ -85,5 +89,11 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
+- Komponen + props : KartuItem.jsx menerima item lewat props dan dipakai berulang di Koleksi.jsx
+- useState : Tambah.jsx menyimpan isi form (form) dan pesan galat (galat)
+- useEffect : KoleksiProvider.jsx mengambil koleksi.json dengan fetch saat aplikasi dibuka
+- Custom hook : useKoleksi.js dan useLocalStorage.js membungkus logika yang dipakai berulang
+- React Router : App.jsx mendefinisikan 7 route, Layout.jsx memakai <Outlet /> dan NavLink
+- Route dinamis : Detail.jsx membaca :id dari alamat /koleksi/:id
+- Render daftar (map + key) : Koleksi.jsx merender kartu dari array destinasi
 ```
