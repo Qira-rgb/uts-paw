@@ -12,23 +12,37 @@
   font-size: 1.1rem;
 }
 
-.beranda-tautan {
-  display: inline-block;
-  padding: 0.5rem 1.2rem;
-  border: 2px solid #66A3FF;
-  border-radius: 8px;
-  text-decoration: none;
-  color: #1f2328;
-}
 
-.beranda-tautan button{
-  align-self: flex-start;
+.beranda-tautan-koleksi {
+  display: inline-block;
   margin-top: 1rem;
   padding: 0.6rem 1.5rem;
-  border: 0;
+  border: 2px solid #000000;
+  background: #FD91CC;
   border-radius: 6px;
-  background: #FFC266;
+  text-decoration: none;
   color: #000000;
   font: inherit;
   cursor: pointer;
+}
+
+.beranda-tautan-koleksi:hover{
+  background: #FFC266;
+}
+
+.beranda-tautan-tambah {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  border: 2px solid #000000;
+  background: #FD91CC;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #000000;
+  font: inherit;
+  cursor: pointer;
+}
+
+.beranda-tautan-tambah:hover{
+  background: #FFC266;
 }

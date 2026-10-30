@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import mahasiswa from '../../mahasiswa.json'
+import Tambah from './Tambah.jsx'
 import './Beranda.css'
 
 
@@ -20,7 +21,8 @@ export default function Beranda() {
           Ada {items.length} tugas dalam {jumlahKategori} kategori.
         </p>
       )}
-      <Link to="/koleksi">Lihat semua koleksi destinasi</Link>
+      <Link to="/koleksi" className="beranda-tautan-koleksi">Koleksi Destinasi</Link>
+      <Link to="/tambah" className="beranda-tautan-tambah">Tambah Destinasi +</Link>
     </section>
   )
 }

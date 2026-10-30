@@ -5,7 +5,7 @@
 }
 
 .kepala {
-  background: #FF66A3;
+  background: #FD91CC;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,7 +29,7 @@
 }
 
 .menu a:hover {
-  color: #FF66A3;
+  color: #FD91CC;
   background: #ffffff;
 
 }
@@ -50,11 +50,11 @@
 }
 
 .kaki {
-  background: #FF66A3;
+  background: #09318D;
   text-align: center;
   padding: 1rem 1.5rem;
   border-top: 2px solid #000000;
-  color: #000000;
+  color: #ffffff;
   font-size: 0.9rem;
 }
 
